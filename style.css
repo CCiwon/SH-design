@@ -468,6 +468,7 @@ body {
 .page-frame {
   position: relative;
   width: 100%;
+  max-width: calc(100vh * 16 / 9);
   max-height: 100vh;
   aspect-ratio: 16 / 9;
   display: flex;
