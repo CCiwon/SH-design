@@ -246,12 +246,8 @@
 
       introEnvelope.addEventListener("click", () => {
         if (!introEnvelope.classList.contains("opened")) {
-          // 1단계: 봉투 뚜껑 열기
           introEnvelope.classList.add("opened");
-        } else if (!introEnvelope.classList.contains("letter-up")) {
-          // 2단계: 편지지 올라오기
           introEnvelope.classList.add("letter-up");
-          // 3단계: 메인 페이지로 전환
           setTimeout(() => {
             intro.classList.add("fade-out");
             setTimeout(() => {

@@ -503,21 +503,21 @@ body {
 /* HOME 버튼 */
 .nav-home {
   position: absolute;
-  top: 13.89%; /* 150 / 1080 */
+  top: 24%; /* 150 / 1080 */
   left: 5%; /* 145 / 1920 */
 }
 
 /* PORTFOLIO 버튼 */
 .nav-portfolio {
   position: absolute;
-  top: 23.15%; /* 250 / 1080 */
+  top: 33.15%; /* 250 / 1080 */
   left: 5.55%;
 }
 
 /* ABOUT 버튼 */
 .nav-about {
   position: absolute;
-  top: 30.56%; /* 330 / 1080 */
+  top: 40.56%; /* 330 / 1080 */
   left: 5.55%;
 }
 
@@ -666,19 +666,19 @@ body {
 
 .readmore-btn img,
 .imwhatothersee-btn img {
-  width: 2.5vw;
-  max-width: 65px;
+  width: 2vw;
+  max-width: 60px;
   height: auto;
 }
 
 .readmore-btn {
-  bottom: 12%;
+  bottom: 12.5%;
   left: 58.2%;
 }
 
 .imwhatothersee-btn {
-  bottom: 12%;
-  left: 76.2%;
+  bottom: 12.5%;
+  left: 74.2%;
 }
 
 /* 포트폴리오 더보기 버튼 */
